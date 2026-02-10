@@ -30,13 +30,13 @@ Windows 10 1909以上Windows系统
 必要时需要使用VPN（请注意使用的合规性并自行承担后果，EFTB不提供VPN连接服务）
 
 ## 🚀 安装
-- 从本项目的[Release](https://github.com/HOE-Team/EFTB/Releases)页面下载msi安装程序
+- 从本项目的[Release](https://github.com/HOE-Team/Everything-Fine-Toolbox/Releases)页面下载msi安装程序
 - 运行MSI安装程序
 - 按照MSI程序指引完成安装
 - 开始使用
 
 ## ⏫ 关于携带版
-- 携带版可用USB大容量存储设备装载后随处使用，你可以从[Release](https://github.com/HOE-Team/EFTB/Releases)下载Portable版本（一般在文件名后缀会带有`-portable`）然后使用解压软件解压到你的USB设备
+- 携带版可用USB大容量存储设备装载后随处使用，你可以从[Release](https://github.com/HOE-Team/Everything-Fine-Toolbox/Releases)下载Portable版本（一般在文件名后缀会带有`-portable`）然后使用解压软件解压到你的USB设备
 
 ## 👋 如何贡献
 
