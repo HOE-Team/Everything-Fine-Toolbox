@@ -102,8 +102,8 @@ git commit -m "fix: 修复****问题"
 
 项目Star历史：
 <p style="text-align: center;">
-    <a href="https://api.star-history.com/svg?repos=HOE-Team/EFTB&Date">
-        <img alt="start" width=50% src="https://api.star-history.com/svg?repos=HOE-Team/EFTB&Date"/>
+    <a href="https://api.star-history.com/svg?repos=HOE-Team/Everything-Fine-Toolbox&Date">
+        <img alt="start" width=50% src="https://api.star-history.com/svg?repos=HOE-Team/Everything-Fine-Toolbox&Date"/>
     </a>
 </p>
 
