@@ -30,7 +30,7 @@ Windows 10 1909以上Windows系统
 必要时需要使用VPN（请注意使用的合规性并自行承担后果，EFTB不提供VPN连接服务）
 
 ## 🚀 安装
-- 从本项目的[Release](https://github.com/HOE-Team/Everything-Fine-Toolbox/releases))页面下载msi安装程序
+- 从本项目的[Release](https://github.com/HOE-Team/Everything-Fine-Toolbox/releases)页面下载msi安装程序
 - 运行MSI安装程序
 - 按照MSI程序指引完成安装
 - 开始使用
