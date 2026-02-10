@@ -35,6 +35,50 @@ Windows 10 1909以上Windows系统
 - 按照MSI程序指引完成安装
 - 开始使用
 
+## 🔨 从源代码构建
+
+<details>
+  <summary>Gradle</summary>
+
+### 系统要求
+- Windows 10 1909 或更高版本
+- JDK 17 或更高版本
+- Git
+
+### 构建步骤
+
+1. **克隆仓库**
+   ```bash
+   git clone https://github.com/HOE-Team/Everything-Fine-Toolbox.git
+   cd Everything-Fine-Toolbox
+   ```
+
+2. **编译项目**
+   ```bash
+   .\gradlew.bat compileKotlin --no-daemon --console=plain
+   ```
+
+3. **运行应用**
+   ```bash
+   .\gradlew.bat run
+   ```
+
+4. **打包为 MSI 安装程序**
+   ```bash
+   .\gradlew.bat packageDistributionForCurrentOS
+   ```
+   
+   生成的 MSI 文件位于：
+   ```
+   build/compose/binaries/main/msi/EverythingFineToolbox-1.0.0.msi
+   ```
+
+### 常见问题
+- 如果编译失败，请确保 JDK 版本为 17 或更高
+- 确保网络连接正常，Gradle 需要下载依赖包
+- MSI 生成过程可能需要几分钟，请耐心等待
+</details>
+
 ## ⏫ 关于携带版
 - 携带版可用USB大容量存储设备装载后随处使用，你可以从[Release](https://github.com/HOE-Team/Everything-Fine-Toolbox/Releases)下载Portable版本（一般在文件名后缀会带有`-portable`）然后使用解压软件解压到你的USB设备
 
