@@ -61,7 +61,7 @@ fun ToolsScreen() {
 fun SystemMonitoringToolContent() {
     val tools = listOf(
         ToolItem("AIDA64", "系统硬件检测和诊断", "https://www.aida64.com/"),
-        ToolItem("CPU-Z", "CPU 信息检测工具", "https://www.cpuid.com/cpuz.html"),
+        ToolItem("CPU-Z", "CPU 信息检测工具", "https://www.cpuid.com/softwares/cpu-z.html"),
         ToolItem("GPU-Z", "GPU 信息检测工具", "https://www.techpowerup.com/gpuz/"),
         ToolItem("HWiNFO", "硬件信息实时监控", "https://www.hwinfo.com/")
     )

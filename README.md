@@ -14,15 +14,17 @@
 
 
 > [!Important]
-> 由于使用了较为激进的技术栈(KMP+CMP)，这个项目为**实验项目**，构建不稳定且不会受到长期维护，请酌情使用。
+> 由于使用了较为激进的技术栈(KMP+CMP)，这个项目为**实验项目**，构建不稳定且不会受到长期维护，请酌情使用。并且我们强烈建议有意愿贡献者再三考虑是否为本项目贡献代码，因为我们不保证这个项目的长期维护和稳定性。
 
 ---
 
 ## ✉️ QQ交流群：很抱歉，没有
-HOE Team仅有内部工作群，没有外部群，虽然迎大家来唠嗑，但是很遗憾我们没条件。
+HOE Team仅有内部工作群，没有外部群，虽然欢迎大家来唠嗑，但是很遗憾我们没条件。  
+> *(P.S. 为什么写这个章节? 详情请见[ELFTS/wwgjx](https://github.com/ELFTS/wwgjx))*
 
 ## ℹ️ 关于某个”被诽谤者”
-在GitHub，我们有权开源我们的任何代码。
+在GitHub，我们有权开源我们的任何代码。  
+> *(P.S. 为什么写这个章节? 详情请见[ELFTS/wwgjx](https://github.com/ELFTS/wwgjx))*
 
 ## 🖥️ 系统要求
 Windows 10 1909以上Windows系统
@@ -43,7 +45,7 @@ Windows 10 1909以上Windows系统
 <details>
   <summary>Gradle</summary>
 
-### 系统要求
+### 编译环境要求
 - Windows 10 1909 或更高版本
 - JDK 17 或更高版本
 - Git
@@ -85,10 +87,21 @@ Windows 10 1909以上Windows系统
 ## ⏫ 关于携带版
 - 携带版可用USB大容量存储设备装载后随处使用，你可以从[Release](https://github.com/HOE-Team/Everything-Fine-Toolbox/Releases)下载Portable版本（一般在文件名后缀会带有`-portable`）然后使用解压软件解压到你的USB设备
 
-## 👋 如何贡献
+# 👋 如何贡献
+你可以向我们发送 Issue 或提交 PR。
 
-你可以向我们发送Issue或者提交PR  
+**但我们不建议你这么做。**
 
+本项目是实验性嘲讽复刻，技术栈激进（KMP+CMP），构建不稳定，且不保证长期维护。
+如果你提交 PR，可能不会被合并，也可能合进去了但项目明天就归档。
+
+那为什么还要写 PR 指南？
+
+因为——万一真有开发者觉得这个项目值得认真做下去，甚至想把它变成一个正经工具箱，我们不能让人家摸黑进门。
+门开着，PR 指南写好了，但你进来之前，**请三思**。
+
+如果你三思过后还是想提交，我们感谢你的认真。
+PR 审核可能会很慢，也可能没有下文，但这不是你的问题，是这个项目状态的问题。
 ### PR提交流程说明：
 <details>
   <summary>Git CLI</summary>
@@ -146,11 +159,8 @@ git commit -m "fix: 修复****问题"
 | [CMP(Compose Multiplatform)](https://kotlinlang.org/compose-multiplatform/)                                  | 跨平台声明式UI框架  |
 | [OSHI(Operating System and Hardware Information)](https://github.com/oshi/oshi)| 硬件信息获取  |
 
-## ❤️ 鸣谢
-感谢所有为Everything Fine Toolbox贡献的开发者们，没有你们，也就没有EFTB的持续更新和保持开源。
-
 ## 🌟 Star
-如果你觉得本项目好用的话，请给个Star支持！
+如果你觉得本实验对你的项目开发有启发的话，请给个Star支持！
 
 项目Star历史：
 <p style="text-align: center;">
