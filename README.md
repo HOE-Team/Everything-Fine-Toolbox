@@ -1,57 +1,83 @@
 <h1 align="center">万物妥工具箱</h1>
+
 <div align="center">
-    <img width="150" src="images/logo.png"></img>
+    <img width="150" src="images/logo.png" alt="项目Logo">
 </div>
-<h4 align="center">一款简约和高效的工具箱</h4>
-<h4 align="center">完美支持 Windows 10（1909+）、11</h4>
+
+<h4 align="center">一款简约高效、技术激进的实验性工具箱 · 对某闭源项目的嘲讽复刻</h4>
+
 <div align="center">
 
 [![Stars](https://img.shields.io/github/stars/HOE-Team/Everything-Fine-Toolbox?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4MiAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIDEgLjQxNiAxLjI3OWwtMy4wNDYgMi45Ny43MTkgNC4xOTJhLjc1MS43NTEgMCAwIDEtMS4wODguNzkxTDggMTIuMzQ3bC0zLjc2NiAxLjk4YS43NS43NSAwIDAgMS0xLjA4OC0uNzlsLjcyLTQuMTk0TC44MTggNi4zNzRhLjc1Ljc1IDAgMCAxIC40MTYtMS4yOGw0LjIxLS42MTFMNy4zMjcuNjY4QS43NS43NSAwIDAgMSA4IC4yNVoiIGZpbGw9IiNlYWM1NGYiLz48L3N2Zz4=&logoSize=auto&label=Stars&labelColor=444444&color=eac54f)](https://github.com/HOE-Team/Everything-Fine-Toolbox)
 [![LICENSE](https://img.shields.io/github/license/HOE-Team/Everything-Fine-Toolbox?style=for-the-badge)](https://github.com/HOE-Team/Everything-Fine-Toolbox/blob/main/LICENSE)
-![GitHub Release](https://img.shields.io/github/v/release/HOE-Team/Everything-Fine-Toolbox?label=Release&logo=github&style=for-the-badge)
+[![GitHub Release](https://img.shields.io/github/v/release/HOE-Team/Everything-Fine-Toolbox?label=Release&logo=github&style=for-the-badge)](https://github.com/HOE-Team/Everything-Fine-Toolbox/releases)
 
 </div>
 
-
-> [!Important]
-> 由于使用了较为激进的技术栈(KMP+CMP)，这个项目为**实验项目**，构建不稳定且不会受到长期维护，请酌情使用。并且我们强烈建议有意愿贡献者再三考虑是否为本项目贡献代码，因为我们不保证这个项目的长期维护和稳定性。  
-> P.S. 本项目为对某闭源工具箱的嘲讽复刻，**不建议**任何人将本项目作为生产力工具使用。
 ---
-## ⚠️ 注意（你不需要认真读这个章节）
-我们复刻的原项目在其README指控我方“盗用其代码”，但我们并没有使用任何来源于wwgjx的代码，所有使用的库和所有代码均公开透明可以审计，且从根本上我方和ELFTS使用的技术栈有很大区别，无法通用，故无抄袭可能性。ELFTS方面指控我方的工具箱“内存占用不如他小”，但此项目为实验性和嘲讽复刻项目，不考虑内存占用问题。界面使用Material Design风格，好看与否需要由用户评判。另外用户下不下载是用户的自由，我们没有强迫任何人下载，我们也没有呼吁任何人放弃使用ELFTS/wwgjx。
-> *(P.S. 为什么写这个章节? 详情请见[ELFTS/wwgjx](https://github.com/ELFTS/wwgjx))*  
-> 原项目章节：
-> ### *⚠️ 注意*
-> *最近有人抄袭了我们的工具箱，名字叫“万物妥工具箱”，内存占用不如万物工具箱小，界面不如万物工具箱好看，请大家不要下载*
 
-## ✉️ QQ交流群：很抱歉，没有
-HOE Team仅有内部工作群，没有外部群，虽然欢迎大家来唠嗑，但是很遗憾我们没条件。  
-> *(P.S. 为什么写这个章节? 详情请见[ELFTS/wwgjx](https://github.com/ELFTS/wwgjx))*
+## 📋 项目状态
 
-## ℹ️ 关于某个”被诽谤者”
-在GitHub，我们有权开源我们的任何代码。  
-> *(P.S. 为什么写这个章节? 详情请见[ELFTS/wwgjx](https://github.com/ELFTS/wwgjx))*
+> [!IMPORTANT]
+> 这是一个**实验性项目**，采用激进的技术栈（KMP + CMP），构建不稳定且不会受到长期维护。我们强烈建议贡献者再三考虑是否参与，因为不保证项目的长期维护和稳定性。
+>
+> **P.S.** 本项目为对某闭源工具箱的**嘲讽复刻**，不建议任何人将其作为生产力工具使用。
+
+## 📑 目录
+
+- [📋 项目状态](#-项目状态)
+- [✨ 特性](#-特性)
+- [🖥️ 系统要求](#️-系统要求)
+- [🚀 安装](#-安装)
+- [⏫ 便携版](#-便携版)
+- [🔨 从源代码构建](#-从源代码构建)
+- [🤝 如何贡献](#-如何贡献)
+- [📁 项目结构](#-项目结构)
+- [🔗 技术栈](#-技术栈)
+- [🌟 Star历史](#-star历史)
+- [📜 版权与许可证](#-版权与许可证)
+
+## ✨ 特性
+
+* **现代UI**：采用 Material Design 3 设计风格
+* **技术激进**：使用 Kotlin + Compose Multiplatform 跨平台框架
+* **嘲讽复刻**：对某闭源工具箱的回应性项目
+* **代码透明**：完全开源，可供任何人审计
 
 ## 🖥️ 系统要求
-Windows 10 1909以上Windows系统
-> [!Warning]
-> 本程序有可能无法在Windows 10 1909以下正常运行，Windows 10 1909以下系统的用户，请酌情使用。
 
-需要稳定网络连接  
-必要时需要使用VPN（请注意使用的合规性并自行承担后果，EFTB不提供VPN连接服务）
+* **操作系统**：Windows 10 1909 或更高版本
+> [!WARNING]
+> 本程序可能无法在 Windows 10 1909 以下版本正常运行，旧系统用户请酌情使用。
+
+* **网络**：需要稳定网络连接
+* **特殊网络**：必要时需要使用 VPN（请注意使用的合规性并自行承担后果，本工具不提供 VPN 连接服务）
 
 ## 🚀 安装
-- 从本项目的[Release](https://github.com/HOE-Team/Everything-Fine-Toolbox/releases)页面下载msi安装程序
-- 运行MSI安装程序
-- 按照MSI程序指引完成安装
-- 开始使用
+
+1. 从本项目的 [Releases](https://github.com/HOE-Team/Everything-Fine-Toolbox/releases) 页面下载最新的 MSI 安装程序
+2. 运行 MSI 安装程序
+3. 按照安装向导指引完成安装
+4. 开始使用
+
+## ⏫ 便携版
+
+> [!IMPORTANT]
+> 本项目暂未分发Portable版本，后续请以官方通知为准。
+
+如果你希望将工具箱随身携带：
+
+1. 从 [Releases](https://github.com/HOE-Team/Everything-Fine-Toolbox/releases) 页面下载文件名带有 `-portable` 的版本
+2. 使用解压软件解压到你的 USB 设备或其他便携存储介质
+3. 随时随地运行使用
 
 ## 🔨 从源代码构建
 
 <details>
-  <summary>Gradle</summary>
+<summary>Gradle 构建指南（点击展开）</summary>
 
 ### 编译环境要求
+
 - Windows 10 1909 或更高版本
 - JDK 17 或更高版本
 - Git
@@ -85,36 +111,30 @@ Windows 10 1909以上Windows系统
    ```
 
 ### 常见问题
+
 - 如果编译失败，请确保 JDK 版本为 17 或更高
 - 确保网络连接正常，Gradle 需要下载依赖包
 - MSI 生成过程可能需要几分钟，请耐心等待
+
 </details>
 
-## ⏫ 关于携带版
-- 携带版可用USB大容量存储设备装载后随处使用，你可以从[Release](https://github.com/HOE-Team/Everything-Fine-Toolbox/Releases)下载Portable版本（一般在文件名后缀会带有`-portable`）然后使用解压软件解压到你的USB设备
+## 🤝 如何贡献
 
-# 👋 如何贡献
 你可以向我们发送 Issue 或提交 PR。
 
 **但我们不建议你这么做。**
 
-本项目是实验性嘲讽复刻，技术栈激进（KMP+CMP），构建不稳定，且不保证长期维护。
-如果你提交 PR，可能不会被合并，也可能合进去了但项目明天就归档。
+本项目是实验性嘲讽复刻，技术栈激进（KMP + CMP），构建不稳定，且不保证长期维护。如果你提交 PR，可能不会被合并，也可能合进去了但项目明天就归档。
 
-那为什么还要写 PR 指南？
+> [!NOTE]
+> 那为什么还要写 PR 指南？因为——万一真有开发者觉得这个项目值得认真做下去，甚至想把它变成一个正经工具箱，我们不能让人家摸黑进门。门开着，PR 指南写好了，但你进来之前，**请三思**。
 
-因为——万一真有开发者觉得这个项目值得认真做下去，甚至想把它变成一个正经工具箱，我们不能让人家摸黑进门。
-门开着，PR 指南写好了，但你进来之前，**请三思**。
+如果你三思过后还是想提交，我们感谢你的认真。PR 审核可能会很慢，也可能没有下文，但这不是你的问题，是这个项目状态的问题。
 
-如果你三思过后还是想提交，我们感谢你的认真。
-PR 审核可能会很慢，也可能没有下文，但这不是你的问题，是这个项目状态的问题。
-### PR提交流程说明：
 <details>
-  <summary>Git CLI</summary>
+<summary>PR 提交流程（点击展开）</summary>
 
-# 🤝 PR 提交指南
-
-## 步骤
+### 步骤
 
 1. **创建分支**
    ```bash
@@ -139,7 +159,7 @@ PR 审核可能会很慢，也可能没有下文，但这不是你的问题，�
    - 填写标题和描述
    - 提交
 
-## 提交信息格式
+### 提交信息格式
 ```
 类型: 描述
 
@@ -150,34 +170,52 @@ style   - 代码格式
 refactor- 代码重构
 ```
 
-## 示例
+### 示例
 ```
-git commit -m "feat: 添加****功能"
-git commit -m "fix: 修复****问题"
+git commit -m "feat: 添加新功能"
+git commit -m "fix: 修复已知问题"
 ```
 
 </details>
 
+## 📁 项目结构
+
+```
+project/
+├─ src/                  # Kotlin 源代码
+├─ gradle/               # Gradle 配置
+├─ build.gradle.kts      # 项目构建配置
+├─ settings.gradle.kts   # Gradle 设置
+├─ gradlew               # Gradle Wrapper (Linux/macOS)
+├─ gradlew.bat           # Gradle Wrapper (Windows)
+├─ LICENSE               # 许可证
+└─ README.md             # 项目说明
+```
 
 ## 🔗 技术栈
-| 引用程序集                                                   | 作用       |
-| ----------------------------------------------------------- | ---------- |
-| [CMP(Compose Multiplatform)](https://kotlinlang.org/compose-multiplatform/)                                  | 跨平台声明式UI框架  |
-| [OSHI(Operating System and Hardware Information)](https://github.com/oshi/oshi)| 硬件信息获取  |
 
-## 🌟 Star
-如果你觉得本实验对你的项目开发有启发的话，请给个Star支持！
+| 组件 | 用途 | 开源协议 |
+|------|------|------|
+| [Kotlin](https://kotlinlang.org/) | 主要编程语言 | Apache 2.0 |
+| [Compose Multiplatform](https://kotlinlang.org/compose-multiplatform/) | 跨平台声明式 UI 框架 | Apache 2.0 |
+| [OSHI](https://github.com/oshi/oshi) | 操作系统和硬件信息获取 | MIT |
 
-项目Star历史：
-<p style="text-align: center;">
-    <a href="https://api.star-history.com/svg?repos=HOE-Team/Everything-Fine-Toolbox&Date">
-        <img alt="start" width=50% src="https://api.star-history.com/svg?repos=HOE-Team/Everything-Fine-Toolbox&Date"/>
-    </a>
-</p>
+## 🌟 Star历史
+
+如果你觉得本实验对你的项目开发有启发，欢迎给个 Star 支持！
+
+[![Star History Chart](https://api.star-history.com/svg?repos=HOE-Team/Everything-Fine-Toolbox&type=Date)](https://star-history.com/#HOE-Team/Everything-Fine-Toolbox&Date)
+
+## 📬 联系方式
+
+你可以通过我们的电子邮箱 hoe_software_team@outlook.com 发送邮件联系我们，我们稍后也会开启GitHub Discussion供大家讨论。
 
 ## 📜 版权与许可证
-版权所有 ©2026 HOE Team。 保留所有权利。
-项目使用[MIT协议](LICENSE)开源
+
+版权所有 © 2026 HOE Team。保留所有权利。
+
+本项目基于 [MIT 许可证](LICENSE) 开源。
+
 > [!NOTE]
 > 这份许可证意味着：
 >
@@ -185,3 +223,26 @@ git commit -m "fix: 修复****问题"
 > 2. **你可以修改并重新发布**这个代码。
 > 3. **你甚至可以用它来开发商业软件并销售**，只要你在你的产品中包含原始的 MIT 许可证文本和版权声明。
 > 4. **作者不提供任何保证**，如果使用该软件导致任何问题，你需要自己承担风险。
+
+---
+
+## 📝 关于原项目争议的说明
+
+<details>
+<summary>点击查看详细说明（非技术用户可忽略）</summary>
+
+ELFTS/wwgjx 项目在其 README 中指控我方“盗用其代码”，对此我们说明如下：
+
+* **技术栈差异**：我方使用 Kotlin + Compose Multiplatform 开发，对方使用易语言 + EXUI 开发，技术栈完全不同，不存在代码复用的可能
+* **代码透明**：我方所有代码均已开源，可供任何人审计
+* **内存占用**：对方指控“内存占用不如他小”，但本项目为实验性和嘲讽复刻项目，不考虑内存占用问题
+* **界面设计**：界面使用 Material Design 3 风格，美观与否由用户评判
+* **用户自由**：用户下载与否是用户的自由，我们没有强迫任何人下载，也未呼吁任何人放弃使用 ELFTS/wwgjx
+
+> **原项目相关章节**：
+> > *⚠️ 注意*
+> > *最近有人抄袭了我们的工具箱，名字叫“万物妥工具箱”，内存占用不如万物工具箱小，界面不如万物工具箱好看，请大家不要下载*
+
+详情请见 [ELFTS/wwgjx](https://github.com/ELFTS/wwgjx)
+
+</details>
