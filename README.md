@@ -1,6 +1,10 @@
 <h1 align="center">NNETB's Not Everything Toolbox</h1>
 <h1 align="center">非万！</h1>
 
+> [!WARNING]
+> # 此项目已被归档
+> ### 查看 [下游项目[↗]](https://github.com/HOE-Team/not-toolbox)
+
 <div align="center">
     <img width="150" src="images/logo.png" alt="项目Logo">
 </div>
@@ -17,10 +21,10 @@
 
 ---
 
-## 📋 项目状态
+## 📋 项目状态 **Archived**
 
 > [!IMPORTANT]
-> 这是一个**实验性项目**，采用激进的技术栈（Kotlin + CMP），现在已经进入**终结性**维护，将**不再**受理除严重Bug修复以外的Pull Request和Feature Issue。。
+> 此项目已被归档，下游项目见 [HOE-Team/not-toolbox](https://github.com/HOE-Team/not-toolbox) 。
 
 ## 📑 目录
 
